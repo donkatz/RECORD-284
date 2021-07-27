@@ -1,0 +1,109 @@
+/* nor */
+
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* lib */
+
+:root {
+    --site-width: 1440px;
+}
+
+.container {
+    max-width: var(--site-width);
+    margin: 0 auto;
+}
+
+/* cus */
+
+.main-page {
+    width: 1920px;
+    height: 1600px;
+
+}
+
+/* 헤더 */
+
+.header {
+    width: 1920px;
+    height: 115px;
+    border: 1px solid red;
+}
+
+.header .header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header .header-inner .logo {
+    width: 270px;
+    padding: 10px 0 20px;
+}
+
+.header .header-inner .logo a {}
+
+.header .header-inner .logo a img {
+    width: 270px;
+
+}
+
+.header .menu {}
+
+.header .menu ul {
+    display: flex;
+}
+
+.header .menu ul li {
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 45px;
+}
+
+.header .menu ul li:first-child {
+    padding-left: 90px;
+}
+
+.header .menu ul li a {}
+
+/* 콘텐츠 */
+
+.contents {
+    height: 7980px;
+}
+
+/* 이미지 */
+
+.contents .main-img {
+    height: 620px;
+    overflow: hidden;
+}
+
+.contents .main-img .img {
+    bg
+}
+
+.contents .main-img .img img {
+    width: 1920px;
+}
+
+.contents .main-img .img-text {}
+
+.contents .main-img .img-text li {}
