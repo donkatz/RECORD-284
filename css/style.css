@@ -43,7 +43,6 @@ a {
 .header {
     width: 1920px;
     height: 115px;
-    border: 1px solid red;
 }
 
 .header .header-inner {
