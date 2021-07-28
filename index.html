@@ -7,8 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>RECORD 284</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/common.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 </head>
 
 <body>
@@ -25,7 +29,7 @@
 
                 <div class="logo">
                     <a href="#">
-                        <img src="img/logo.svg" alt="">
+                        <img src="img/logo.svg" alt="로고">
                     </a>
                 </div>
 
@@ -37,10 +41,10 @@
                             <a href="#">전시소개</a>
                         </li>
                         <li>
-                            <a href="#">레코드 문화</a>
+                            <a href="#cul">레코드 문화</a>
                         </li>
                         <li>
-                            <a href="#">레코드 마스터</a>
+                            <a href="#mas">레코드 마스터</a>
                         </li>
                         <li>
                             <a href="#">라디오 284</a>
@@ -67,65 +71,149 @@
             <div class="main-img">
 
                 <div class="img">
-                    <img src="img/bg1.png" alt="">
-                </div>
-
-                <div class="img-text">
-                    <li>문화를 재생하다.</li>
-                    <li>RECORD 284</li>
-                    <li>2020 .11 .25 - 12 .31</li>
+                    <img src="img/bg2.png" alt="메인페이지 사진">
                 </div>
 
             </div>
 
             <!--            ---->
 
-            <div class="culture">
+            <div class="culture" id="cul">
                 <div class="container">
+
+                    <div class="c-text">
+                        레코드 문화
+                    </div>
+                    <div class="slider center slick-initialized slick-slider">
+                        <div class="slick-list draggable">
+                            <div class="slick-track">
+                                <div class="slick-slide">
+                                    <img src="img/c1.jpg" alt="">
+                                </div>
+                                <div class="slick-slide">
+                                    <img src="img/c2.jpg" alt="">
+                                </div>
+                                <div class="slick-slide">
+                                    <img src="img/c3.jpg" alt="">
+                                </div>
+                                <div class="slick-slide">
+                                    <img src="img/c4.jpg" alt="">
+                                </div>
+                                <div class="slick-slide">
+                                    <img src="img/c5.jpg" alt="">
+                                </div>
+                                <div class="slick-slide">
+                                    <img src="img/c6.jpg" alt="">
+                                </div>
+                                <div class="slick-slide">
+                                    <img src="img/c7.jpg" alt="">
+                                </div>
+                                <div class="slick-slide">
+                                    <img src="img/c8.jpg" alt="">
+                                </div>
+                                <div class="slick-slide">
+                                    <img src="img/c9.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
 
             <!--            ---->
 
-            <div class="masters">
+            <div class="masters" id="mas">
 
                 <div class="container">
 
-                    <div class="master1">
-                        <img src="" alt="">
-                        <li></li>
-                        <li></li>
+                    <div class="m-text">
+                        레코드 마스터
                     </div>
-                    <div class="master2">
-                        <img src="" alt="">
-                        <li></li>
-                        <li></li>
+                    <div class="master1" id="master">
+                        <div class="img-box">
+                            <img src="img/m1.gif" alt="마장뮤직앤픽처스">
+                        </div>
+                        <li class="m-name">마장뮤직앤픽처스</li>
+                        <li>
+                            레코드 기획과 제작에 관한 모든 일을 하는 국내 대표 바이닐 레코드 브랜드이다. <br>
+                            자체 프레싱 생산 시스템을 구축하여 처음부터 끝까지 ‘메이드 인 코리아’로 진행한다. <br>
+                            신보는 물론 재조명되어야 하는 음반을 선정하고 발매하는 레코드 전문 레이블이면서, 보다 양질의 페스티벌 과 콘서트를 선보인다. <br>
+                            이번 전시에서는 마장뮤직앤픽처스의 역사와 이를 지켜온 인물들의 레코드를 향한 열정을 소개한다.
+                        </li>
                     </div>
-                    <div class="master3">
-                        <img src="" alt="">
-                        <li></li>
-                        <li></li>
+                    <div class="master2" id="master">
+                        <div class="img-box">
+                            <img src="img/m2.jpg" alt="안성진">
+                        </div>
+                        <li class="m-name">안성진</li>
+                        <li>
+                            1992년, 015B의 라이브 앨범 『LIVE』의 커버를 시작으로 윤종신, 김성재, 신해철 등을 비롯해 다양한 뮤지션들과 함께 500여 개의 음반 커버를 촬영했다. <br>
+                            이외에 영화 포스터, 잡지, 광고에 이르기까지 상업 사진 분야에서도 활발히 활동했다. 안성진은 음반의 색깔을 명료하게 보여주면서 음악과 화학작용을 일으키는 비주얼을 만든다. <br>
+                            사진가는 ‘철저히 뒤에서 도움을 주는 조연’이라는 철학으로, 있는 그대로의 피사체를 존중하면서 가장 자연스러운 한 순간을 포착해낸다. <br>
+                            그의 수많은 작품 중 레코드284를 위해 특별히 선정된 열다섯 점의 사진은 영상으로 제작되어 온라인 전시로 소개된다. <br>
+                            영상은 코사이어티의 컬처라운지에서도 만나볼 수 있다.
+                        </li>
                     </div>
-                    <div class="master4">
-                        <img src="" alt="">
-                        <li></li>
-                        <li></li>
+                    <div class="master3" id="master">
+                        <div class="img-box">
+                            <img src="img/m3.jpg" alt="디제이 소울스케이프">
+                        </div>
+                        <li class="m-name">디제이 소울스케이프</li>
+                        <li>
+                            360 사운즈 소속의 디제이, 프로듀서. 1970–80년대 국내의 락, 재즈, 소울, 펑크를 비롯해 라운지, 보사노바 등 다양한 장르의 음악을 힙합적인 작법으로 풀어낸다. <br>
+                            2012년부터 100% 바이닐 레코드로 음악을 플레이하는 파티 ‘스트릭틀리 바이닐(Strictly Vinyl)’을 정기적으로 주최해왔고 바이닐 레코드는 물론 음악 관련 책과 패션 상품 등을 판매하는 스토어 ‘룸 360’을 운영하는 등 레코드와 관련하여 전방위적으로 활동 중이다. <br>
+                            음반 『Lovers』, 『창작과 비트 Vol. 1 — Paerns for Words』, 디지털 싱글 「한강의 테마」 등을 발표했으며, 특히 2000년 발매된 첫번째 앨범 『180g Beats』는 대한민국에서 턴테이블리즘이 가능하다는 것을 증명한 명반으로 평가받는다. <br>
+                            그는 이번 전시에서 음악 큐레이터로 활약하며 다양한 음반을 소개하고, 공연과 한정반 등을 기획했다.
+                        </li>
                     </div>
-                    <div class="master5">
-                        <img src="" alt="">
-                        <li></li>
-                        <li></li>
+                    <div class="master4" id="master">
+                        <div class="img-box">
+                            <img src="img/m4.jpg" alt="서울레코드페어">
+                        </div>
+                        <li class="m-name">서울레코드페어</li>
+                        <li>
+                            2011년 시작된 서울레코드페어는 이전에는 찾아볼 수 없었던 행사다. <br>
+                            가수나 뮤지션이 아닌 레코드를 주인공으로, 업체 및 개인이 준비한 수만 종의 음반, 음향기기, 음악 상품 등이 한자리에 모인다. <br>
+                            서울레코드페어를 위해 기획, 제작된 ‘한정반’과 여러 뮤지션들의 ‘최초 공개반’을 비롯한 특별한 음반을 소개해왔다. <br>
+                            이번 전시에서는 서울레코드페어의 지난 역사를 소개하는 특별전이 복합문화공간 포제에서 열리며, 서울레코드페어를 만든 주역들과 함께 동시대 레코드 문화를 이야기해보는 라운드테이블 또한 온라인 플랫폼에서 선보인다.
+                        </li>
                     </div>
-                    <div class="master6">
-                        <img src="" alt="">
-                        <li></li>
-                        <li></li>
+                    <div class="master5" id="master">
+                        <div class="img-box">
+                            <img src="img/m5.jpg" alt="최규성">
+                        </div>
+                        <li class="m-name">최규성</li>
+                        <li>
+                            대중문화평론가, 한국대중가요연구소 대표. <br>
+                            1986년부터 2006년까지 20년 동안 한국일보 기자와 편집위원으로 일하면서 대중가요와 동고동락했다. <br>
+                            바이닐 레코드 수집가들의 바이블이라고 할 수 있는 『대중가요 LP 가이드북』, 대중문화의 역사에서 찾은 해적 음반의 기록 『빽판의 전성시대: 팝송의 국내 유입 역사』 의 저자이자 국내 최초로 『한국 인디뮤지션 사진집』을 발간한 사진작가로 한국대중음악상 선정위원, 한국방송대상 본선심사위원 등을 맡아왔다. <br>
+                            이번 전시에서는 그가 아끼는 80, 90년대 레코드 20선을 소개하고 이 음반과 관련된 대중음악 역사 속에 다양한 비하인드 스토리를 풀어낸다.
+                        </li>
                     </div>
-                    <div class="master7">
-                        <img src="" alt="">
-                        <li></li>
-                        <li></li>
+                    <div class="master6" id="master">
+                        <div class="img-box">
+                            <img src="img/m6.jpg" alt="에디토리">
+                        </div>
+                        <li class="m-name">에디토리</li>
+                        <li>
+                            음악과 삶을 주제로 가치 있는 경험을 제공하는 편집숍. <br>
+                            오디오 유통회사에서 출발한 만큼 음악을 감상할 수 있는 다양한 음향 기기와 음악과 관련된 리빙 제품을 판매한다. <br>
+                            개인의 취향과 일상의 패턴에 꼭 맞는 오디오를 제안하는 전문가인 오디오 마스터가 함께 하며 선별한 레코드판을 들어볼 수 있는 청음 공간 또한 마련돼 있다. <br>
+                            음악을 중심으로 확장된 라이프스타일, 제품과 경험, 하드웨어와 콘텐츠를 동시에 즐길 수 있는 곳이다. <br>
+                            이번 전시를 위해 제작된 제로랩의 ‘레코드를 위한 스툴 시리즈’를 에디토리에서 만나볼 수 있으며 에디토리의 사운드마스터가 제안하는 효과적인 레코드 관련기기 사양과 정보를 또한 제공한다.
+                        </li>
+                    </div>
+                    <div class="master7" id="master">
+                        <div class="img-box">
+                            <img src="img/m7.jpg" alt="레몬">
+                        </div>
+                        <li class="m-name">레몬</li>
+                        <li>
+                            과거엔 디자이너였고 지금은 수집가다. <br>
+                            특히 1970~80년대 레트로 가젯에 애정이 깊다. 턴테이블, 붐 박스, 카세트 테이프, 리코드 등 음향기기뿐 아니라 전자제품, 피규어, 박물관에서 볼 법한 로솝까지, 독특한 디자인 제품들을 비슷한 취향을 가진 대중과 공유하고 소통하기 위해 공간 ‘레몬 서울’을 열었다. <br>
+                            레몬은 이번 전시에서 시간의 흐름에 따라 변화하는 턴테이블의 디자인을 소개하고 전시 곳곳에서 디자이너와 아티스트들의 협업을 통해 이들의 다양한 레코드 관련 컬렉션을 선보인다.
+                        </li>
                     </div>
 
                 </div>
@@ -138,27 +226,65 @@
 
                 <!--               ---->
 
-                <div class="con-img"></div>
+                <div class="container">
+                    <div class="con-img">
+                        <img src="img/con-img.png" alt="">
+                    </div>
 
-                <!--               ---->
+                    <!--               ---->
 
-                <div class="con-way">
-                    <div class="container">
+                    <div class="con-way">
 
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
+                        <div class="con-way-tit">
+                            전시를 즐기는 8가지 방법
+                        </div>
+                        <div class="ways">
+                            <ul class="f-way">
+                                <li>
+                                    1. 레코드284 웹사이트를 통해 전시 정보를 확인한다.
+                                </li>
+                                <li>
+                                    2. 웹사이트 상단 메뉴에서 [레코드 마스터]를 클릭, 레코드
+                                    <br>
+                                    마스터들의 이야기를 관람한다.
+                                </li>
+                                <li>
+                                    3. [레코드 문화]에서 참여 작가들의 소개를 읽고, 작품이 전
+                                    <br>
+                                    시되는 장소를 체크한다.
+                                </li>
+                                <li>
+                                    4. 문화역서울 284 앞 광장을 비롯해 서울 전역의 협력 공간
+                                    <br>
+                                    에서 작품과 공간을 즐긴다.
+                                </li>
+                            </ul>
+                            <ul class="s-way">
+                                <li>
+                                    5. 매주 공개되는 라이브 스트리밍도 빼놓지 말자. 매주 일요
+                                    <br>
+                                    일 [라디오 284]에서 공개된다.
+                                </li>
+                                <li>
+                                    6. 디제이 소울스케이프가 추천하는 플레이리스트로 일상의
+                                    <br>
+                                    BGM을 깔아보는 것도 방법.
+                                </li>
+                                <li>
+                                    7. [서울레코드페어]와 함께 하는 라운드테이블을 통해 국내
+                                    <br>
+                                    레코드 문화에 대한 생생한 이야기를 들어본다.
+                                </li>
+                                <li>
+                                    8. [레코드 투어]에서 소개하는 서울 곳곳의 레코드 공간에
+                                    <br>
+                                    서 취향에 꼭 맞는 레코드를 디깅(digging)한다.
+                                </li>
+                            </ul>
+                        </div>
 
                     </div>
                 </div>
-
                 <!--               ---->
 
             </div>
@@ -171,6 +297,42 @@
 
         <div class="footer">
             <div class="container">
+                <ul>
+                    <li>이용약관</li>
+                    <li>이메일무단수집거부</li>
+                    <li>개인정보처리방침</li>
+                    <li>이메일 seoul284@kcdf.kr</li>
+                </ul>
+                <div>
+                    04509 서울특별시 중구 통일로 1 서울역(본옥) 문화역서울 284 Fax 02-3407-3510 Contact 02-3407-3500
+                </div>
+                <div>
+                    Copyright © 2014. KOREA CRAFT & DESIGN FOUNDATION. All Rights Reserved.
+
+                </div>
+
+                <div class="foot-logo">
+                    <a href="#">
+                        <img src="img/foot-logo.svg" alt="문화역 서울284">
+                    </a>
+                </div>
+                <div class="logo-box">
+                    <div>
+                        <a href="#">
+                            <img src="img/logo-box1.png" alt="KCDF">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="img/logo-box2.png" alt="문화체육관광부">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="img/logo-box3.png" alt="문화포털">
+                        </a>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -179,4 +341,6 @@
 
     </section>
 
-</body></html>
+</body>
+
+</html>
