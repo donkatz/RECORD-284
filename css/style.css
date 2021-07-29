@@ -130,7 +130,7 @@ a {
     text-align: center;
     padding: 10px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* 레코드 마스터 */
@@ -257,7 +257,7 @@ a {
 
 .content .con-way .ways ul.f-way {
     border-right: 1px solid black;
-    padding: 0 100px;
+    padding: 10px 100px;
 }
 
 .content .con-way .ways ul.s-way {
