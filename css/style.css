@@ -69,13 +69,10 @@ a {
     padding-left: 105px;
 }
 
-.header .header-inner .logo a {}
-
 .header .header-inner .logo a img {
     width: 270px;
 }
 
-.header .menu {}
 
 .header .menu ul {
     display: flex;
@@ -92,7 +89,6 @@ a {
     padding-left: 125px;
 }
 
-.header .menu ul li a {}
 
 /* 콘텐츠들 */
 
@@ -106,7 +102,6 @@ a {
     overflow: hidden;
 }
 
-.contents .main-img .img {}
 
 .contents .main-img .img img {
     width: 100%;
@@ -115,6 +110,10 @@ a {
 }
 
 /* 레코드 문화 */
+
+.culture {
+    position: relative;
+}
 
 .culture .c-text {
     font-size: 20px;
@@ -126,37 +125,79 @@ a {
 
 .culture-slide {
     width: 1440px;
+    margin: 0 auto;
 }
 
 .culture-slide .slide {
-    padding: 25px;
+    width: 400px;
+    height: 560px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+    transition: 0.5s;
 }
 
-.culture-slide > .slick-center > img {
-    padding: 0;
+.culture-slide .slide.active {
+    padding: 20px ;
 }
 
 .culture-slide .slide:hover {
     cursor: pointer;
 }
 
-.culture-slide .slide > img {
+.culture-slide .img-box {
     width: 100%;
+    height: 100%;
     border-radius: 5px;
-    box-sizing: border-box;
-    transition: 1s;
+    background-color: #ddd ;
+    background-position: center ;
+    background-size: cover ;
+    background-repeat: no-repeat ;  
 }
 
 .culture-slide .slide > div {
     text-align: center;
-    padding: 10px;
+    padding: 3px;
     font-weight: bold;
     font-size: 16px;
 }
 
-.culture-slide button {
-    background-color: #999;
-}
+.culture .before-btn {
+    width : 60px ;
+    height: 60px ;
+    position: absolute ;
+    top: 50% ;
+    transform: translateY(-50%) ;
+    left: -80px; 
+    z-index: 9 ;
+    font-size: 24px ;
+  }
+  
+.culture .next-btn{
+    width : 60px ;
+    height: 60px ;
+    position: absolute ;
+    top: 50% ;
+    transform: translateY(-50%) ;
+    right: -80px ; 
+    z-index: 9 ;
+    font-size: 24px ;
+  }
+
+  .culture .before-btn:hover, .culture .next-btn:hover {
+      cursor: pointer;
+  }
+
+.culture .next-btn > img{
+    width: 100% ;
+  }
+
+.culture .prev-btn > img{
+    width: 100% ;
+  }
+  
+
 
 /* 레코드 마스터 */
 
@@ -168,7 +209,7 @@ a {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    padding: 60px 0 120px;
+    padding: 100px 0 100px;
 }
 
 .masters .master {
@@ -269,15 +310,10 @@ a {
     cursor: default;
 }
 
-.content .container {}
-
-.content .con-img {}
-
 .content .con-img img {
     width: 1440px;
 }
 
-.content .con-way {}
 
 .content .con-way .con-way-tit {
     margin-top: 40px;
