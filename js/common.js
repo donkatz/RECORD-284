@@ -5,14 +5,11 @@ $(document).ready(function(){
       centerMode: true ,
       centerPadding: "0px" ,
       arrows: true,
+      MouseEvent : false,
 
       prevArrow: "<div class='before-btn'><img src='img/left-arrow.png' alt=''></div>", 
       
       nextArrow: "<div class='next-btn'><img src='img/next-arrow.png' alt=''></div>", 
-    });
-    
-    $('.culture-slide').on('init', function(event, slick){
-        $(".slick-center").addClass("active");
     });
     
     $('.culture-slide').on('beforeChange', function(event, slick, currentSlide, nextSlide){
